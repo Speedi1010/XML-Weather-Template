@@ -14,8 +14,8 @@ namespace XMLWeather
     public partial class Form1 : Form
     {
         // TODO: create list to hold day objects
-
-
+        List<string> days = new List<string>();
+        
         public Form1()
         {
             InitializeComponent();
@@ -35,7 +35,7 @@ namespace XMLWeather
             while (reader.Read())
             {
                 //TODO: create a day object
-
+                
                 //TODO: fill day object with required data
 
                 //TODO: if day object not null add to the days list
